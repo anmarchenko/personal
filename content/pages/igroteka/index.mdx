@@ -3,4 +3,47 @@ title: Igroteka
 slug: '/igroteka'
 ---
 
-Here will be information about the hamster travel project
+This is a page draft to be finished after the new year.
+_Here will introduction go: why, what..._
+
+### Features
+
+_describe..._
+
+- search games by name
+- display a page with basic information about a game
+- add a game to my backlog and put in one of the following lists: "Wishlist”, “To play”, “Currently playing”, “Played”
+- save additional information about a game in my backlog like platform (PC, PS5, etc), priority in the backlog or how much did I enjoy this game
+- for each game show critic rating and critic reviews for that game
+- for each game show approximately how long would it take to finish it
+- show screenshots and videos for every game
+
+### Data sources
+
+So there are three main topics to cover:
+
+- games data
+- game reviews
+- how long is the game
+
+There are several public API providers with games data, the most popular ones being [Giantbomb](https://www.giantbomb.com) and [IGDB](https://www.igdb.com/discover).
+
+### Tech stack
+
+Backend (skaro app) is being developed with elixir language and phoenix web framework. This is API-only project providing
+HTTP API for the frontend to consume.
+
+Frontend (igroteka app) is being developed in react (via create-react-app) with redux as state management
+library and redux-saga as side effects manager.
+
+### Screenshots
+
+Backlog - games to play
+
+Backlog - played
+
+Game page
+
+Game page - reviews
+
+Game page - media

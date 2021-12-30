@@ -18,6 +18,14 @@ const Footer = () => {
       }}
     >
       <div>
+        <a
+          aria-label="Link to this website's GitHub repository"
+          href="https://github.com/altmer/personal"
+        >
+          Source code
+        </a>
+      </div>
+      <div>
         <Link
           aria-label="Link to the theme's GitHub repository"
           href="https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-minimal-blog"
