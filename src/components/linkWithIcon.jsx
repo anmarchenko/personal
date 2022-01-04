@@ -1,10 +1,16 @@
 import * as React from 'react';
 
-import { GitHub } from 'react-feather';
+import { GitHub, BookOpen, Globe } from 'react-feather';
 
 const types = {
   github: {
     Icon: GitHub,
+  },
+  docs: {
+    Icon: BookOpen,
+  },
+  website: {
+    Icon: Globe,
   },
 };
 

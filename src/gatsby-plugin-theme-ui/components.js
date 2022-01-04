@@ -3,9 +3,11 @@ import * as React from 'react';
 import { preToCodeBlock } from 'mdx-utils';
 import { Text } from 'theme-ui';
 import Code from '../components/code';
+import ProjectLinks from '../components/ProjectLinks';
 import Title from '@lekoarts/gatsby-theme-minimal-blog/src/components/title';
 
 const components = {
+  ProjectLinks: ({ links }) => <ProjectLinks links={links} />,
   Text: ({ children, ...props }) => <Text {...props}>{children}</Text>,
   Title: ({ children, text, ...props }) => (
     <Title text={text} {...props}>
