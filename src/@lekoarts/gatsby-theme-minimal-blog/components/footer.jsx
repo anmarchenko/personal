@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { jsx, Link } from 'theme-ui';
+import LinkWithIcon from '../../../components/linkWithIcon';
 
 const Footer = () => {
   return (
@@ -18,12 +19,11 @@ const Footer = () => {
       }}
     >
       <div>
-        <a
-          aria-label="Link to this website's GitHub repository"
-          href="https://github.com/altmer/personal"
-        >
-          Source code
-        </a>
+        <LinkWithIcon
+          type="github"
+          url="https://github.com/altmer/personal"
+          label="Source code"
+        />
       </div>
       <div>
         <Link
