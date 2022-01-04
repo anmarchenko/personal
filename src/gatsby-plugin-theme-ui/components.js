@@ -3,7 +3,7 @@ import * as React from 'react';
 import { preToCodeBlock } from 'mdx-utils';
 import { Text } from 'theme-ui';
 import Code from '../components/code';
-import ProjectLinks from '../components/ProjectLinks';
+import ProjectLinks from '../components/projectLinks';
 import Title from '@lekoarts/gatsby-theme-minimal-blog/src/components/title';
 
 const components = {
